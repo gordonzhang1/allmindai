@@ -1,0 +1,46 @@
+.works-con {
+  background: linear-gradient(to right, #0c2431 0%, #0c2431 100%);
+  padding: 50px;
+}
+
+.works-header {
+  font-size: 3em;
+  text-align: center;
+  color: white;
+}
+
+.descheader {
+  font-size: 2em;
+  color: white;
+  cursor: pointer;
+}
+
+.workselectcon {
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  margin-top: 20px;
+  color: white;
+  font-size: 1.5em;
+}
+
+.worksdesc {
+  display: flex;
+  padding: 50px;
+  color: white;
+  gap: 2vw;
+}
+
+.work-image {
+  width: 60%;
+}
+
+.work-option {
+  opacity: 0.5; /* Make unselected options faded */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.work-option.active {
+  opacity: 1; /* Make selected option fully visible */
+  font-weight: normal; /* Ensure selected text is not bold */
+}

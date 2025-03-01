@@ -1,0 +1,55 @@
+.platform-con {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+}
+
+.platform-title {
+  font-size: 2em;
+}
+
+.comp-con {
+  display: flex;
+  gap: 5vw;
+}
+.cloudcon {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.vcon {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.cloudtitle {
+  text-align: center;
+}
+
+.vctitle {
+  text-align: center;
+}
+
+.vc {
+  width: 70px;
+  height: auto;
+}
+
+.cloud-inner {
+  display: flex;
+  gap: 2vw;
+}
+
+.vc-inner {
+  display: flex;
+  gap: 2vw;
+}
+
+.build {
+  width: 250px;
+}
