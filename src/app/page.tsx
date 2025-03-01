@@ -4,6 +4,7 @@ import Works from "@/components/Works";
 import Platform from "@/components/Platform";
 import TestimonialsCarousel from "@/components/TestomonialCarousel";
 import Featured from "@/components/Featured";
+import Deliver from "@/components/Deliver";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Platform />
       <TestimonialsCarousel />
       <Featured />
+      <Deliver />
     </>
   );
 }

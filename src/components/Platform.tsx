@@ -5,7 +5,7 @@ export default function Platform() {
   return (
     <>
       <div className="platform-con">
-        <div className="platform-title">
+        <div className="platform-title font-bold">
           See What’s Possible with Massdriver’s IaC-Powered Platform
         </div>
         <div className="video-container">
