@@ -3,6 +3,7 @@ import { NavbarDemo } from "../components/NavbarDemo";
 import Works from "@/components/Works";
 import Platform from "@/components/Platform";
 import TestimonialsCarousel from "@/components/TestomonialCarousel";
+import Featured from "@/components/Featured";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Works />
       <Platform />
       <TestimonialsCarousel />
+      <Featured />
     </>
   );
 }
