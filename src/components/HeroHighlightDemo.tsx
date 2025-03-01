@@ -25,6 +25,27 @@ export function HeroHighlightDemo() {
           Without the Red Tape
         </Highlight>
       </motion.h1>
+      <div className="header-con flex flex-col items-center gap-4 text-center">
+        <div className="text-center">
+          At Massdriver, we believe in prevention, not permission.
+        </div>
+        <div className="text-center">
+          Our platform lets "ops" teams encode their expertise and your
+          organization’s non-negotiables into preapproved self-service
+          infrastructure powered by the IaC tools you already know.
+        </div>
+        <div className="text-center">
+          Massdriver—Fast by default. Safe by design.
+        </div>
+        <div className="home-button-con">
+          <button className="px-8 py-2 rounded-md bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200">
+            Gradient
+          </button>
+          <button className="px-8 py-2 rounded-md bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200">
+            Gradient
+          </button>
+        </div>
+      </div>
     </HeroHighlight>
   );
 }
