@@ -23,7 +23,7 @@ export default function Deliver() {
         </div>
       </div>
       <button className="px-8 py-2 rounded-md bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200">
-        Gradient
+        See a Demo
       </button>
     </div>
   );
