@@ -28,8 +28,8 @@ export function HeroHighlightDemo() {
           At Massdriver, we believe in prevention, not permission.
         </div>
         <div className="text-center">
-          Our platform lets "ops" teams encode their expertise and your
-          organization’s non-negotiables into preapproved self-service
+          Our platform lets ops teams encode their expertise and your
+          organizations non-negotiables into preapproved self-service
           infrastructure powered by the IaC tools you already know.
         </div>
         <div className="text-center">

@@ -17,7 +17,7 @@ export default function Reduce() {
             <img className="amd" src="/amd.png" />
           </div>
           <div className="chipcondesc">
-            Massdriver’s platform has revolutionized our approach to
+            Massdrivers platform has revolutionized our approach to
             infrastructure, saving us 89% of the time spent managing
             infrastructure. Our operation could upscale by an order of
             magnitude, if not two, and we would not be in crisis mode to hire
@@ -28,13 +28,13 @@ export default function Reduce() {
           <div>
             Explore how AMD Global Telemedicine revolutionized their software
             deployment process, cutting down release effort by 89% with
-            Massdriver's cloud solutions. This case study is a must-read for
+            Massdrivers cloud solutions. This case study is a must-read for
             those aiming to scale efficiently and enhance team productivity
             through innovative cloud technology. Download now for key insights.
           </div>
           <ul>
             <li>
-              Reduced software release effort by 89% with Massdriver's cloud
+              Reduced software release effort by 89% with Massdrivers cloud
               solutions.
             </li>
             <li>

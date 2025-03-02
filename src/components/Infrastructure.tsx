@@ -19,7 +19,7 @@ export default function Infrastructure() {
             <div className="con1head">Cloud Service Catalog</div>
             <div className="con1headdesc">
               <div>
-                Your DevOps teams have a lot on their plate, don't lose another
+                Your DevOps teams have a lot on their plate, dont lose another
                 great teammate to burnout.
               </div>
               <div>
@@ -41,7 +41,7 @@ export default function Infrastructure() {
             <div className="con1head">Cost & Health Insights</div>
             <div className="con1headdesc">
               <div>
-                Get a clear view of your cloud's health and costs right where
+                Get a clear view of your clouds health and costs right where
                 your developers manage their infrastructure.
               </div>
               <div>
