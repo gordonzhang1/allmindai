@@ -1,0 +1,11 @@
+.question-con {
+  padding: 5%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5vw;
+}
+.questionheader {
+  font-size: 2em;
+}

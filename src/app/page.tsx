@@ -11,6 +11,7 @@ import Button from "@/components/Button";
 import Reduce from "@/components/Reduce";
 import Eng from "@/components/Eng";
 import Quote from "@/components/Quote";
+import Question from "@/components/Question";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
       <Reduce />
       <Eng />
       <Quote />
+      <Question />
     </>
   );
 }
