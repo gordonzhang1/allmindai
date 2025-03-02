@@ -12,6 +12,7 @@ import Reduce from "@/components/Reduce";
 import Eng from "@/components/Eng";
 import Quote from "@/components/Quote";
 import Question from "@/components/Question";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
       <Eng />
       <Quote />
       <Question />
+      <Footer />
     </>
   );
 }

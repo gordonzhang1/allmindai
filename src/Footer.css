@@ -1,0 +1,26 @@
+.footer-con {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(230, 241, 245);
+  padding: 5%;
+}
+.middle-con {
+  display: flex;
+  gap: 3vw;
+}
+
+.middle-ind-con {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.desc-con {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.desc-title {
+  font-weight: bold;
+}
