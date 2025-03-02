@@ -35,31 +35,31 @@ function Navbar({ className }: { className?: string }) {
               title="Infinitely Extendable"
               href="https://www.google.com/"
               src="https://assets.aceternity.com/demos/tailwindmasterkit.webp"
-              description="Production ready Tailwind css components for your next project"
+              description="Extend the platform with OpenTofu, Terraform, and Helm"
             />
             <ProductItem
               title=" Infrastructure"
               href="https://www.google.com/"
               src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.51.31%E2%80%AFPM.png"
-              description="Never write from scratch again. Go from idea to blog in minutes."
+              description="Unified configuration management"
             />
             <ProductItem
               title="Contextual Metrics"
               href="https://www.google.com/"
               src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
-              description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
+              description="Infrastructure diagrams as dashboards"
             />
             <ProductItem
               title="Support"
               href="#"
               src="https://via.placeholder.com/150"
-              description="Description for new product 1"
+              description="VMs, serverless, and containers"
             />
             <ProductItem
               title="CI/CD"
               href="#"
               src="https://via.placeholder.com/150"
-              description="Description for new product 2"
+              description="Easily integrate infrastructure and application management into your CI/CD system"
             />
           </div>
         </MenuItem>
