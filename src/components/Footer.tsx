@@ -6,7 +6,7 @@ export default function Footer() {
     <footer>
       <div className="footer-con">
         <div className="left-con">
-          <img src="/Mass.png" />
+          <img src="/Mass.png" className="w-[150px]" />
         </div>
         <div className="middle-con">
           <div className="middle-ind-con">

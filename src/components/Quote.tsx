@@ -22,11 +22,11 @@ export default function Quote() {
             has passed rigorous CIS benchmarks for your favorite cloud's
             partnership network.
           </div>
-          <div className="quote-comp">
+          {/* <div className="quote-comp">
             <img className="quoteimg" src="/aws.png" />
             <img className="quoteimg micro" src="/micro2.png" />
             <img className="quoteimg" src="/google.png" />
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="confident-outer-con">

@@ -34,7 +34,7 @@ export default function Infrastructure() {
           </div>
           <img className="infraimg" src="/cloud.png" />
         </div>
-        <div className="infracon1">
+        <div className="infracon1 infracon2">
           <img className="infraimg" src="/cost.png" />
 
           <div className="infracon1-inner">

@@ -8,16 +8,20 @@ export default function Platform() {
         <div className="platform-title font-bold">
           See What’s Possible with Massdriver’s IaC-Powered Platform
         </div>
-        <div className="video-container">
-          <iframe
-            width="700"
-            height="400"
-            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+        <div className="w-[600px] max-w-full mx-auto">
+          <div
+            className="relative w-full overflow-hidden"
+            style={{ paddingTop: "56.25%" }}
+          >
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src="https://www.youtube.com/embed/yxAPMfGR0jE?autoplay=0&rel=0"
+              title="YouTube Video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </div>
         <div className="comp-con">
           <div className="cloudcon">

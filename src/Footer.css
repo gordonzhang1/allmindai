@@ -4,9 +4,15 @@
   background-color: rgb(230, 241, 245);
   padding: 5%;
 }
+@media (max-width: 1024px) {
+  .footer-con {
+    flex-direction: column;
+  }
+}
 .middle-con {
   display: flex;
   gap: 3vw;
+  flex-wrap: wrap;
 }
 
 .middle-ind-con {

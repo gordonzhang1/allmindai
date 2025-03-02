@@ -29,7 +29,7 @@ export const HeroHighlight = ({
   return (
     <div
       className={cn(
-        "relative h-[40rem] flex items-center bg-white dark:bg-black justify-center w-full group",
+        "relative h-[40rem] flex items-center bg-white dark:bg-black justify-center w-full group bg-[url('https://www.massdriver.cloud/assets/645c0dea42f678e1f8b77774/64a7ac1334017c29afcc086a_shape.svg')] bg-[length:400px_400px] bg-right bg-no-repeat",
         containerClassName
       )}
       onMouseMove={handleMouseMove}

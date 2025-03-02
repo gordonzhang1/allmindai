@@ -21,7 +21,8 @@
 }
 
 .infraimg {
-  width: 40vw;
+  width: 500px;
+  object-fit: cover;
 }
 
 .infracon1 {
@@ -32,6 +33,13 @@
   padding-top: 1vw;
   padding-bottom: 1vw;
 }
+
+@media (max-width: 1000px) {
+  .infracon1 {
+    flex-direction: column;
+  }
+}
+
 .infracon1-inner {
   display: flex;
   flex-direction: column;

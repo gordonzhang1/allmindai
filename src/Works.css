@@ -31,8 +31,15 @@
   gap: 2vw;
 }
 
+@media (max-width: 1000px) {
+  .worksdesc {
+    flex-direction: column;
+  }
+}
+
 .work-image {
-  width: 60%;
+  width: 500px;
+  object-fit: cover;
 }
 
 .work-option {

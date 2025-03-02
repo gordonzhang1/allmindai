@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
+import "../../src/Navbar.css";
 
 export function NavbarDemo() {
   return (
@@ -16,31 +17,16 @@ function Navbar({ className }: { className?: string }) {
   return (
     <div
       className={cn(
-        "fixed top-10 inset-x-0 max-w-7xl mx-auto z-50 border border-gray-300 dark:border-gray-700 bg-white dark:bg-black shadow-lg rounded-lg",
+        "my-navbar fixed top-10 inset-x-0 max-w-7xl mx-auto z-50 border border-gray-300 dark:border-gray-700 bg-white dark:bg-black shadow-lg rounded-lg",
         className
       )}
     >
       <Menu setActive={setActive}>
-        <MenuItem setActive={setActive} active={active} item="MassDriver">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
-          </div>
-        </MenuItem>
+        <img src="/Mass.png" className="w-30 h-auto" />
         <MenuItem setActive={setActive} active={active} item="Features">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
-          </div>
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Solutions">
-          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+          <div className="text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
-              title="Algochurn"
+              title="Production Ready"
               href="https://algochurn.com"
               src="https://assets.aceternity.com/demos/algochurn.webp"
               description="Prepare for tech interviews like never before."
@@ -63,64 +49,123 @@ function Navbar({ className }: { className?: string }) {
               src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
               description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
             />
+            <ProductItem
+              title="New Product 1"
+              href="#"
+              src="https://via.placeholder.com/150"
+              description="Description for new product 1"
+            />
+            <ProductItem
+              title="New Product 2"
+              href="#"
+              src="https://via.placeholder.com/150"
+              description="Description for new product 2"
+            />
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Pricing">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
+        <MenuItem setActive={setActive} active={active} item="Solutions">
+          <div className="text-sm grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 p-4">
+            {/* Column 1 */}
+            <div className="max-w-[200px] break-words">
+              <h3 className="text-lg font-semibold mb-2 text-gray-800 dark:text-gray-200">
+                SOLUTIONS
+              </h3>
+              <ul className="space-y-1">
+                <li>
+                  <HoveredLink href="/developer-self-service">
+                    Developer Self Service with a very, very long name
+                  </HoveredLink>
+                </li>
+                <li>
+                  <HoveredLink href="/open-tofu">
+                    OpenTofu for Enterprise
+                  </HoveredLink>
+                </li>
+                <li>
+                  <HoveredLink href="/backstage-alternative">
+                    Backstage Alternative
+                  </HoveredLink>
+                </li>
+              </ul>
+            </div>
+
+            {/* Column 2 */}
+            <div className="max-w-[200px] break-words">
+              <h3 className="text-lg font-semibold mb-2 text-gray-800 dark:text-gray-200">
+                CASE STUDIES
+              </h3>
+              <ul className="space-y-1">
+                <li>
+                  <HoveredLink href="/aws-to-azure">
+                    Mentaware’s Seamless AWS-to-Azure Migration
+                  </HoveredLink>
+                </li>
+                <li>
+                  <HoveredLink href="/zero-downtime-deployments">
+                    GameStake Achieves Zero-Downtime Deployments
+                  </HoveredLink>
+                </li>
+                <li>
+                  <HoveredLink href="/cloud-costs">
+                    25% Reduction in Cloud Costs
+                  </HoveredLink>
+                </li>
+              </ul>
+            </div>
+
+            {/* Column 3 */}
+            <div className="max-w-[200px] break-words">
+              <h3 className="text-lg font-semibold mb-2 text-gray-800 dark:text-gray-200">
+                WEBINARS
+              </h3>
+              <ul className="space-y-1">
+                <li>
+                  <HoveredLink href="/docker-web-apps">
+                    Best Practices for Containerizing Web Apps with Docker
+                  </HoveredLink>
+                </li>
+                <li>
+                  <HoveredLink href="/open-tofu-migration">
+                    Migrating Existing OpenTofu Modules
+                  </HoveredLink>
+                </li>
+                <li>
+                  <HoveredLink href="/massdriver-office-hours">
+                    MassDriver Office Hours
+                  </HoveredLink>
+                </li>
+              </ul>
+            </div>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Blog">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div>
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Docs">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div>
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Templates">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
-          </div>
-        </MenuItem>
+        <MenuItem
+          setActive={() => {}}
+          active={active}
+          item="Pricing"
+        ></MenuItem>
+        <MenuItem setActive={() => {}} active={active} item="Blog"></MenuItem>
+        <MenuItem setActive={() => {}} active={active} item="Docs"></MenuItem>
+        <MenuItem
+          setActive={() => {}}
+          active={active}
+          item="Templates"
+        ></MenuItem>
         <MenuItem setActive={setActive} active={active} item="Community">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
+            <HoveredLink href="/hobby">Webinars</HoveredLink>
+            <HoveredLink href="/individual">Youtube</HoveredLink>
+            <HoveredLink href="/team">Podcast</HoveredLink>
+            <HoveredLink href="/enterprise">Slack</HoveredLink>
           </div>
         </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Sign-in">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
-          </div>
-        </MenuItem>
-        <MenuItem setActive={setActive} active={active} item="Try Free">
-          <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
-          </div>
-        </MenuItem>
+        <MenuItem
+          setActive={() => {}}
+          active={active}
+          item="Sign-in"
+        ></MenuItem>
+        <button className="px-8 py-2 rounded-md bg-gradient-to-b from-blue-500 to-blue-600 text-white focus:ring-2 focus:ring-blue-400 hover:shadow-xl transition duration-200">
+          Gradient
+        </button>
       </Menu>
     </div>
   );

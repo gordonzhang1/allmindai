@@ -7,7 +7,6 @@ export default function Deliver() {
         Deliver On-Demand, Self-Service of Standardized Infrastructure
       </div>
 
-      {/* Responsive YouTube Video with Controlled Size */}
       <div className="w-[600px] max-w-full mx-auto">
         <div
           className="relative w-full overflow-hidden"

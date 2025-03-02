@@ -22,7 +22,6 @@ export default function Home() {
       <Works />
       <Platform />
       <TestimonialsCarousel />
-      <Featured />
       <Deliver />
       <Infrastructure />
       <Button />
