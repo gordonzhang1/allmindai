@@ -1,0 +1,87 @@
+.quote-con-outer {
+  background: rgb(12, 37, 49);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-con {
+  background-color: rgb(30, 55, 65);
+  color: white;
+  padding: 5%;
+  padding-left: 25%;
+  padding-right: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.cloudbox {
+  background-color: white;
+  color: black;
+  padding: 5%;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.quotehead {
+  font-size: 3em;
+}
+
+.quote-bottom-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 2vw;
+}
+
+.quote-comp {
+  display: flex;
+  gap: 2vw;
+}
+
+.quoteimg {
+  width: 100px;
+  object-fit: cover;
+}
+
+.quoteimg.micro {
+  width: 1000px;
+  height: 80px;
+}
+
+.confident-outer-con {
+  padding: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+.confident-con {
+  color: white;
+  font-size: 2.5em;
+}
+
+.button-con-confident {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+}
+
+.help-con {
+  background-color: rgb(32, 105, 136);
+  color: white;
+  width: 100vw;
+  text-align: center;
+  padding: 1%;
+  font-weight: bold;
+}

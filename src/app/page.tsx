@@ -10,6 +10,7 @@ import Infrastructure from "@/components/Infrastructure";
 import Button from "@/components/Button";
 import Reduce from "@/components/Reduce";
 import Eng from "@/components/Eng";
+import Quote from "@/components/Quote";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Button />
       <Reduce />
       <Eng />
+      <Quote />
     </>
   );
 }
