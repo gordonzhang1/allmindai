@@ -5,6 +5,9 @@ import Platform from "@/components/Platform";
 import TestimonialsCarousel from "@/components/TestomonialCarousel";
 import Featured from "@/components/Featured";
 import Deliver from "@/components/Deliver";
+import { Scroll } from "@/components/Scroll";
+import Infrastructure from "@/components/Infrastructure";
+import Button from "@/components/Button";
 
 export default function Home() {
   return (
@@ -16,6 +19,8 @@ export default function Home() {
       <TestimonialsCarousel />
       <Featured />
       <Deliver />
+      <Infrastructure />
+      <Button />
     </>
   );
 }

@@ -20,10 +20,8 @@ export function HeroHighlightDemo() {
         }}
         className="text-2xl px-4 md:text-4xl lg:text-5xl font-bold text-neutral-700 dark:text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
-        Devops{" "}
-        <Highlight className="text-black dark:text-white">
-          Without the Red Tape
-        </Highlight>
+        Devops Without the{" "}
+        <Highlight className="text-black dark:text-white">Red Tape</Highlight>
       </motion.h1>
       <div className="header-con flex flex-col items-center gap-4 text-center">
         <div className="text-center">

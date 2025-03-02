@@ -1,0 +1,48 @@
+.infracon {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  background: linear-gradient(to right, #0c2431 0%, #0c2431 100%);
+  color: white;
+}
+
+.head-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.infrahead {
+  font-size: 3em;
+  text-align: center;
+}
+.infraheadpara {
+  font-size: 1.5em;
+}
+
+.infraimg {
+  width: 40vw;
+}
+
+.infracon1 {
+  display: flex;
+  gap: 5vw;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+.infracon1-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+}
+.con1head {
+  font-size: 2em;
+}
+
+.con1headdesc {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
