@@ -74,6 +74,9 @@ export default function Footer() {
       </div>
       <div className="footer-last">
         <div>© Massdriver, Inc. 2024</div>
+        <div>Terms of Service</div>
+        <div>Privacy Policy</div>
+        <div>Security</div>
       </div>
     </footer>
   );

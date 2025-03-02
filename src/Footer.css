@@ -24,3 +24,11 @@
 .desc-title {
   font-weight: bold;
 }
+
+.footer-last {
+  display: flex;
+  gap: 2vw;
+  padding: 3%;
+  background-color: rgb(230, 241, 245);
+  border-top: solid rgb(159, 157, 157) 1px;
+}
