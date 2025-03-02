@@ -23,7 +23,7 @@ export default function Platform() {
             ></iframe>
           </div>
         </div>
-        <div className="comp-con">
+        {/* <div className="comp-con">
           <div className="cloudcon">
             <div className="cloudtitle">CLOUD CERTIFIED</div>
             <div className="cloud-inner">
@@ -40,7 +40,7 @@ export default function Platform() {
               <img className="vc" src="/1984.png" />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
