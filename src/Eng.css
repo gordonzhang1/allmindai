@@ -1,0 +1,22 @@
+.eng-con {
+  background: rgb(12, 37, 49);
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.eng-con-inner {
+  background-color: white;
+  width: 50%;
+  padding: 5%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.engdesc {
+  text-align: center;
+}

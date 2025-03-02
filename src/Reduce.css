@@ -1,0 +1,63 @@
+.reduce-con {
+  background: rgb(12, 37, 49);
+  color: white;
+}
+
+.reduceheader {
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.ceocon {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 5%;
+  display: flex;
+  gap: 8vw;
+  padding: 10%;
+}
+
+.chipconhead {
+  font-size: 1.5em;
+}
+
+.chipcon {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  flex: 2;
+  background-color: rgb(30, 55, 65);
+  padding: 3%;
+  border-radius: 5%;
+  max-height: 300px; /* Set a maximum height */
+}
+
+.chipdesccon {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+}
+
+.chipdesccon ul {
+  list-style-type: disc; /* Ensures bullet points appear */
+  padding-left: 10px; /* Adds indentation for clarity */
+}
+.chipdesccon li {
+  margin-bottom: 1vw; /* Adds spacing between list items */
+}
+
+.chip-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.amd {
+  width: 200px; /* Fixed width */
+  object-fit: contain; /* Ensures the whole image fits inside */
+}
+.no-flex {
+  flex: none; /* Prevents the button from growing */
+  width: auto; /* Ensures it only takes up as much space as needed */
+  align-self: start; /* Aligns the button to the start if inside a flex container */
+}

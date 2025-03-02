@@ -8,6 +8,8 @@ import Deliver from "@/components/Deliver";
 import { Scroll } from "@/components/Scroll";
 import Infrastructure from "@/components/Infrastructure";
 import Button from "@/components/Button";
+import Reduce from "@/components/Reduce";
+import Eng from "@/components/Eng";
 
 export default function Home() {
   return (
@@ -21,6 +23,8 @@ export default function Home() {
       <Deliver />
       <Infrastructure />
       <Button />
+      <Reduce />
+      <Eng />
     </>
   );
 }
