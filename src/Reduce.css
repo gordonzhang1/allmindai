@@ -1,6 +1,7 @@
 .reduce-con {
   background: rgb(12, 37, 49);
   color: white;
+  padding: 5%;
 }
 
 .reduceheader {
@@ -17,6 +18,11 @@
   padding: 10%;
 }
 
+@media (max-width: 780px) {
+  .ceocon {
+    flex-direction: column; /* This now correctly applies when <= 684px */
+  }
+}
 .chipconhead {
   font-size: 1.5em;
 }
@@ -29,7 +35,6 @@
   background-color: rgb(30, 55, 65);
   padding: 3%;
   border-radius: 5%;
-  max-height: 300px; /* Set a maximum height */
 }
 
 .chipdesccon {
